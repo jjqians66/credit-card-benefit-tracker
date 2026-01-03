@@ -58,7 +58,15 @@
     }
   ],
   "categories": ["finance", "productivity", "utilities"],
-  "screenshots": [],
+  "screenshots": [
+    {
+      "src": "/screenshots/screenshot.png",
+      "sizes": "360x666",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Credit Card Benefit Tracker - Wallet View"
+    }
+  ],
   "shortcuts": [
     {
       "name": "View Wallet",
