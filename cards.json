@@ -7,7 +7,7 @@
     "image": "/images/cards/amex-plat.png",
     "benefits": [
       {
-        "id": "ap-uber",
+        "id": "ms-apuber",
         "cardId": "amex-plat",
         "title": "Uber Cash",
         "amount": 15,
@@ -16,7 +16,7 @@
         "merchant": "Uber"
       },
       {
-        "id": "ap-lululemon",
+        "id": "ms-aplululemon",
         "cardId": "amex-plat",
         "title": "lululemon Credit",
         "amount": 75,
@@ -25,7 +25,7 @@
         "merchant": "lululemon"
       },
       {
-        "id": "ap-digital",
+        "id": "ms-apdigital",
         "cardId": "amex-plat",
         "title": "Digital Entertainment",
         "amount": 20,
@@ -34,7 +34,7 @@
         "merchant": "Streaming"
       },
       {
-        "id": "ap-walmart",
+        "id": "ms-apwalmart",
         "cardId": "amex-plat",
         "title": "Walmart+",
         "amount": 13,
@@ -43,7 +43,7 @@
         "merchant": "Walmart"
       },
       {
-        "id": "ap-resy",
+        "id": "ms-apresy",
         "cardId": "amex-plat",
         "title": "Resy Credit",
         "amount": 100,
@@ -52,7 +52,7 @@
         "merchant": "Resy"
       },
       {
-        "id": "ap-saks",
+        "id": "ms-apsaks",
         "cardId": "amex-plat",
         "title": "Saks Fifth Avenue",
         "amount": 50,
@@ -61,7 +61,7 @@
         "merchant": "Saks"
       },
       {
-        "id": "ap-airline",
+        "id": "ms-apairline",
         "cardId": "amex-plat",
         "title": "Airline Fee Credit",
         "amount": 200,
@@ -70,7 +70,7 @@
         "merchant": "Airline"
       },
       {
-        "id": "ap-hotel",
+        "id": "ms-aphotel",
         "cardId": "amex-plat",
         "title": "Hotel Credit",
         "amount": 300,
@@ -79,7 +79,7 @@
         "merchant": "Amex Travel"
       },
       {
-        "id": "ap-equinox",
+        "id": "ms-apequinox",
         "cardId": "amex-plat",
         "title": "Equinox Membership Fee",
         "amount": 300,
@@ -97,8 +97,8 @@
     "image": "/images/cards/amex-plat.png",
     "benefits": [
       {
-        "id": "ap-uber",
-        "cardId": "amex-plat",
+        "id": "cs-apuber",
+        "cardId": "cs-amex-plat",
         "title": "Uber Cash",
         "amount": 15,
         "cycle": "Monthly",
@@ -106,8 +106,8 @@
         "merchant": "Uber"
       },
       {
-        "id": "ap-lululemon",
-        "cardId": "amex-plat",
+        "id": "cs-aplululemon",
+        "cardId": "cs-amex-plat",
         "title": "lululemon Credit",
         "amount": 75,
         "cycle": "Quarterly",
@@ -115,8 +115,8 @@
         "merchant": "lululemon"
       },
       {
-        "id": "ap-digital",
-        "cardId": "amex-plat",
+        "id": "cs-apdigital",
+        "cardId": "cs-amex-plat",
         "title": "Digital Entertainment",
         "amount": 20,
         "cycle": "Monthly",
@@ -124,8 +124,8 @@
         "merchant": "Streaming"
       },
       {
-        "id": "ap-walmart",
-        "cardId": "amex-plat",
+        "id": "cs-apwalmart",
+        "cardId": "cs-amex-plat",
         "title": "Walmart+",
         "amount": 13,
         "cycle": "Monthly",
@@ -133,8 +133,8 @@
         "merchant": "Walmart"
       },
       {
-        "id": "ap-resy",
-        "cardId": "amex-plat",
+        "id": "cs-apresy",
+        "cardId": "cs-amex-plat",
         "title": "Resy Credit",
         "amount": 100,
         "cycle": "Quarterly",
@@ -142,8 +142,8 @@
         "merchant": "Resy"
       },
       {
-        "id": "ap-saks",
-        "cardId": "amex-plat",
+        "id": "cs-apsaks",
+        "cardId": "cs-amex-plat",
         "title": "Saks Fifth Avenue",
         "amount": 50,
         "cycle": "Semi-Annual",
@@ -151,8 +151,8 @@
         "merchant": "Saks"
       },
       {
-        "id": "ap-airline",
-        "cardId": "amex-plat",
+        "id": "cs-apairline",
+        "cardId": "cs-amex-plat",
         "title": "Airline Fee Credit",
         "amount": 200,
         "cycle": "Annual",
@@ -160,8 +160,8 @@
         "merchant": "Airline"
       },
       {
-        "id": "ap-hotel",
-        "cardId": "amex-plat",
+        "id": "cs-aphotel",
+        "cardId": "cs-amex-plat",
         "title": "Hotel Credit",
         "amount": 300,
         "cycle": "Semi-Annual",
@@ -169,8 +169,8 @@
         "merchant": "Amex Travel"
       },
       {
-        "id": "ap-equinox",
-        "cardId": "amex-plat",
+        "id": "cs-apequinox",
+        "cardId": "cs-amex-plat",
         "title": "Equinox Membership Fee",
         "amount": 300,
         "cycle": "Annual",
@@ -187,8 +187,8 @@
     "image": "/images/cards/amex-plat.png",
     "benefits": [
       {
-        "id": "ap-uber",
-        "cardId": "amex-plat",
+        "id": "ms-apuber",
+        "cardId": "ms-amex-plat",
         "title": "Uber Cash",
         "amount": 15,
         "cycle": "Monthly",
@@ -196,8 +196,8 @@
         "merchant": "Uber"
       },
       {
-        "id": "ap-lululemon",
-        "cardId": "amex-plat",
+        "id": "ms-aplululemon",
+        "cardId": "ms-amex-plat",
         "title": "lululemon Credit",
         "amount": 75,
         "cycle": "Quarterly",
@@ -205,8 +205,8 @@
         "merchant": "lululemon"
       },
       {
-        "id": "ap-digital",
-        "cardId": "amex-plat",
+        "id": "ms-apdigital",
+        "cardId": "ms-amex-plat",
         "title": "Digital Entertainment",
         "amount": 20,
         "cycle": "Monthly",
@@ -214,8 +214,8 @@
         "merchant": "Streaming"
       },
       {
-        "id": "ap-walmart",
-        "cardId": "amex-plat",
+        "id": "ms-apwalmart",
+        "cardId": "ms-amex-plat",
         "title": "Walmart+",
         "amount": 13,
         "cycle": "Monthly",
@@ -223,8 +223,8 @@
         "merchant": "Walmart"
       },
       {
-        "id": "ap-resy",
-        "cardId": "amex-plat",
+        "id": "ms-apresy",
+        "cardId": "ms-amex-plat",
         "title": "Resy Credit",
         "amount": 100,
         "cycle": "Quarterly",
@@ -232,8 +232,8 @@
         "merchant": "Resy"
       },
       {
-        "id": "ap-saks",
-        "cardId": "amex-plat",
+        "id": "ms-apsaks",
+        "cardId": "ms-amex-plat",
         "title": "Saks Fifth Avenue",
         "amount": 50,
         "cycle": "Semi-Annual",
@@ -241,8 +241,8 @@
         "merchant": "Saks"
       },
       {
-        "id": "ap-airline",
-        "cardId": "amex-plat",
+        "id": "ms-apairline",
+        "cardId": "ms-amex-plat",
         "title": "Airline Fee Credit",
         "amount": 200,
         "cycle": "Annual",
@@ -250,8 +250,8 @@
         "merchant": "Airline"
       },
       {
-        "id": "ap-hotel",
-        "cardId": "amex-plat",
+        "id": "ms-aphotel",
+        "cardId": "ms-amex-plat",
         "title": "Hotel Credit",
         "amount": 300,
         "cycle": "Semi-Annual",
@@ -259,8 +259,8 @@
         "merchant": "Amex Travel"
       },
       {
-        "id": "ap-equinox",
-        "cardId": "amex-plat",
+        "id": "ms-apequinox",
+        "cardId": "ms-amex-plat",
         "title": "Equinox Membership Fee",
         "amount": 300,
         "cycle": "Annual",
