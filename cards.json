@@ -331,7 +331,7 @@
         "merchant": "Travel"
       },
       {
-        "id": "csr-doordash",
+        "id": "csr-doordash-restaurant",
         "cardId": "chase-csr",
         "title": "DoorDash Restaurant Credits",
         "amount": 5,
@@ -340,7 +340,7 @@
         "merchant": "DoorDash-restaurant"
       },
       {
-        "id": "csr-doordash",
+        "id": "csr-doordash-grocery1",
         "cardId": "chase-csr",
         "title": "DoorDash Grocery Credits 1",
         "amount": 10,
@@ -349,7 +349,7 @@
         "merchant": "DoorDash-grocery1"
       },
       {
-        "id": "csr-doordash",
+        "id": "csr-doordash-grocery2",
         "cardId": "chase-csr",
         "title": "DoorDash Grocery Credits 2",
         "amount": 10,
