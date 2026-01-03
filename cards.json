@@ -86,6 +86,15 @@
         "cycle": "Annual",
         "description": "Equinox membership fee (resets annually).",
         "merchant": "Equinox"
+      },
+      {
+        "id": "ms-apoura",
+        "cardId": "amex-plat",
+        "title": "Oura Ring Membership",
+        "amount": 10,
+        "cycle": "Monthly",
+        "description": "$10 Oura Ring membership credit (resets monthly).",
+        "merchant": "Oura"
       }
     ]
   },
@@ -176,6 +185,15 @@
         "cycle": "Annual",
         "description": "Equinox membership fee (resets annually).",
         "merchant": "Equinox"
+      },
+      {
+        "id": "cs-apoura",
+        "cardId": "cs-amex-plat",
+        "title": "Oura Ring Membership",
+        "amount": 10,
+        "cycle": "Monthly",
+        "description": "$10 Oura Ring membership credit (resets monthly).",
+        "merchant": "Oura"
       }
     ]
   },
@@ -266,6 +284,15 @@
         "cycle": "Annual",
         "description": "Equinox membership fee (resets annually).",
         "merchant": "Equinox"
+      },
+      {
+        "id": "ms-apoura",
+        "cardId": "ms-amex-plat",
+        "title": "Oura Ring Membership",
+        "amount": 10,
+        "cycle": "Monthly",
+        "description": "$10 Oura Ring membership credit (resets monthly).",
+        "merchant": "Oura"
       }
     ]
   },
