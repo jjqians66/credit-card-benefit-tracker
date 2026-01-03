@@ -8,8 +8,8 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ currentView, setView }) => {
   return (
-    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-zinc-200">
-      <div className="max-w-3xl mx-auto px-4 h-14 sm:h-16 flex items-center justify-between">
+    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-zinc-200 safe-top">
+      <div className="max-w-3xl mx-auto px-4 safe-left safe-right h-14 sm:h-16 flex items-center justify-between">
         <div 
             className="flex items-center gap-1.5 sm:gap-2 cursor-pointer"
             onClick={() => setView('wallet')}

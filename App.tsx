@@ -3,6 +3,8 @@ import Header from './components/Header';
 import FilterBar from './components/FilterBar';
 import WalletView from './components/WalletView';
 import LibraryView from './components/LibraryView';
+import ErrorBoundary from './components/ErrorBoundary';
+import { CardSkeleton, DashboardSkeleton } from './components/LoadingSkeleton';
 import { Cycle, UserData } from './types';
 import { loadUserData, saveUserData } from './services/storageService';
 
@@ -61,32 +63,46 @@ const App: React.FC = () => {
     });
   };
 
-  if (loading) return null;
-
   return (
-    <div className="min-h-screen bg-zinc-50 text-zinc-900 pb-20">
-      <Header currentView={currentView} setView={setCurrentView} />
+    <ErrorBoundary>
+      <div className="min-h-screen bg-zinc-50 text-zinc-900 pb-20 safe-bottom">
+        <Header currentView={currentView} setView={setCurrentView} />
 
-      {currentView === 'wallet' && (
-        <>
-          <FilterBar selectedCycle={filter} onSelect={setFilter} />
-          <WalletView 
-            myCardIds={userData.myCardIds} 
-            usage={userData.usage} 
-            filter={filter}
-            onToggleBenefit={toggleBenefit}
-            onNavigateToLibrary={() => setCurrentView('library')}
-          />
-        </>
-      )}
+        {loading ? (
+          <div className="max-w-3xl mx-auto px-4 py-8">
+            <div className="mb-6">
+              <div className="h-4 bg-zinc-200 rounded w-32 mb-2 animate-pulse"></div>
+              <div className="h-8 bg-zinc-200 rounded w-48 animate-pulse"></div>
+            </div>
+            <DashboardSkeleton />
+            <CardSkeleton />
+            <CardSkeleton />
+          </div>
+        ) : (
+          <>
+            {currentView === 'wallet' && (
+              <>
+                <FilterBar selectedCycle={filter} onSelect={setFilter} />
+                <WalletView 
+                  myCardIds={userData.myCardIds} 
+                  usage={userData.usage} 
+                  filter={filter}
+                  onToggleBenefit={toggleBenefit}
+                  onNavigateToLibrary={() => setCurrentView('library')}
+                />
+              </>
+            )}
 
-      {currentView === 'library' && (
-        <LibraryView 
-          myCardIds={userData.myCardIds} 
-          onToggleCard={toggleCard} 
-        />
-      )}
-    </div>
+            {currentView === 'library' && (
+              <LibraryView 
+                myCardIds={userData.myCardIds} 
+                onToggleCard={toggleCard} 
+              />
+            )}
+          </>
+        )}
+      </div>
+    </ErrorBoundary>
   );
 };
 
