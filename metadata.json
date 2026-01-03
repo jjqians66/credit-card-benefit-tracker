@@ -1,0 +1,5 @@
+{
+  "name": "Credit Card Benefit Tracker",
+  "description": "A minimalist wallet application to manually track and optimize recurring credit card benefits across different time cycles.",
+  "requestFramePermissions": []
+}

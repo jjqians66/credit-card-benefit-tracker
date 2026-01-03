@@ -1,0 +1,165 @@
+[
+  {
+    "id": "amex-plat",
+    "name": "Platinum Card®",
+    "issuer": "Amex",
+    "color": "bg-zinc-300",
+    "image": "/images/cards/amex-plat.png",
+    "benefits": [
+      {
+        "id": "ap-uber",
+        "cardId": "amex-plat",
+        "title": "Uber Cash",
+        "amount": 15,
+        "cycle": "Monthly",
+        "description": "$15 Uber Cash for rides or eats (resets monthly).",
+        "merchant": "Uber"
+      },
+      {
+        "id": "ap-digital",
+        "cardId": "amex-plat",
+        "title": "Digital Entertainment",
+        "amount": 20,
+        "cycle": "Monthly",
+        "description": "Credit for Disney+, Hulu, ESPN+, NYT, Peacock, or WSJ.",
+        "merchant": "Streaming"
+      },
+      {
+        "id": "ap-walmart",
+        "cardId": "amex-plat",
+        "title": "Walmart+",
+        "amount": 13,
+        "cycle": "Monthly",
+        "description": "Cover monthly Walmart+ membership fee.",
+        "merchant": "Walmart"
+      },
+      {
+        "id": "ap-saks",
+        "cardId": "amex-plat",
+        "title": "Saks Fifth Avenue",
+        "amount": 50,
+        "cycle": "Semi-Annual",
+        "description": "Spend $50 at Saks (Jan-Jun & Jul-Dec).",
+        "merchant": "Saks"
+      },
+      {
+        "id": "ap-airline",
+        "cardId": "amex-plat",
+        "title": "Airline Fee Credit",
+        "amount": 200,
+        "cycle": "Annual",
+        "description": "Incidental fees at one selected airline.",
+        "merchant": "Airline"
+      },
+      {
+        "id": "ap-hotel",
+        "cardId": "amex-plat",
+        "title": "Hotel Credit",
+        "amount": 200,
+        "cycle": "Annual",
+        "description": "Prepaid FHR or The Hotel Collection bookings.",
+        "merchant": "Amex Travel"
+      }
+    ]
+  },
+  {
+    "id": "amex-gold",
+    "name": "Gold Card®",
+    "issuer": "Amex",
+    "color": "bg-yellow-200",
+    "image": "/images/cards/amex-gold.png",
+    "benefits": [
+      {
+        "id": "ag-dining",
+        "cardId": "amex-gold",
+        "title": "Dining Credit",
+        "amount": 10,
+        "cycle": "Monthly",
+        "description": "Grubhub, Cheesecake Factory, Goldbelly, Wine.com, etc.",
+        "merchant": "Dining"
+      },
+      {
+        "id": "ag-uber",
+        "cardId": "amex-gold",
+        "title": "Uber Cash",
+        "amount": 10,
+        "cycle": "Monthly",
+        "description": "$10 Uber Cash for rides or eats.",
+        "merchant": "Uber"
+      }
+    ]
+  },
+  {
+    "id": "chase-csr",
+    "name": "Sapphire Reserve®",
+    "issuer": "Chase",
+    "color": "bg-blue-800 text-white",
+    "image": "/images/cards/chase-csr.png",
+    "benefits": [
+      {
+        "id": "csr-travel",
+        "cardId": "chase-csr",
+        "title": "Travel Credit",
+        "amount": 300,
+        "cycle": "Annual",
+        "description": "Automatically applied to first $300 in travel purchases.",
+        "merchant": "Travel"
+      },
+      {
+        "id": "csr-doordash",
+        "cardId": "chase-csr",
+        "title": "DoorDash Credit",
+        "amount": 5,
+        "cycle": "Monthly",
+        "description": "$5 monthly DoorDash credits (accumulate up to 3 months).",
+        "merchant": "DoorDash"
+      }
+    ]
+  },
+  {
+    "id": "capone-vx",
+    "name": "Venture X",
+    "issuer": "Capital One",
+    "color": "bg-slate-800 text-white",
+    "image": "/images/cards/capone-vx.png",
+    "benefits": [
+      {
+        "id": "vx-travel",
+        "cardId": "capone-vx",
+        "title": "Travel Credit",
+        "amount": 300,
+        "cycle": "Annual",
+        "description": "For bookings through Capital One Travel portal.",
+        "merchant": "Cap1 Travel"
+      },
+      {
+        "id": "vx-miles",
+        "cardId": "capone-vx",
+        "title": "Anniversary Miles",
+        "amount": 100,
+        "cycle": "Annual",
+        "description": "10,000 bonus miles every anniversary year.",
+        "merchant": "Capital One"
+      }
+    ]
+  },
+  {
+    "id": "ritz-carlton",
+    "name": "Ritz-Carlton Card",
+    "issuer": "Chase",
+    "color": "bg-zinc-800 text-white",
+    "image": "/images/cards/ritz-carlton.png",
+    "benefits": [
+      {
+        "id": "rc-airline",
+        "cardId": "ritz-carlton",
+        "title": "Airline Incidental",
+        "amount": 300,
+        "cycle": "Annual",
+        "description": "Must message Chase to apply credit to incidentals.",
+        "merchant": "Airline"
+      }
+    ]
+  }
+]
+
