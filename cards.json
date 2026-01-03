@@ -90,10 +90,10 @@
       {
         "id": "ms-apoura",
         "cardId": "amex-plat",
-        "title": "Oura Ring Membership",
-        "amount": 10,
-        "cycle": "Monthly",
-        "description": "$10 Oura Ring membership credit (resets monthly).",
+        "title": "Oura Ring Credit",
+        "amount": 200,
+        "cycle": "Yearly",
+        "description": "200 Oura Ring credit.",
         "merchant": "Oura"
       }
     ]
@@ -189,10 +189,10 @@
       {
         "id": "cs-apoura",
         "cardId": "cs-amex-plat",
-        "title": "Oura Ring Membership",
-        "amount": 10,
-        "cycle": "Monthly",
-        "description": "$10 Oura Ring membership credit (resets monthly).",
+        "title": "Oura Ring Credit",
+        "amount": 200,
+        "cycle": "Yearly",
+        "description": "200 Oura Ring credit.",
         "merchant": "Oura"
       }
     ]
@@ -288,10 +288,10 @@
       {
         "id": "ms-apoura",
         "cardId": "ms-amex-plat",
-        "title": "Oura Ring Membership",
-        "amount": 10,
-        "cycle": "Monthly",
-        "description": "$10 Oura Ring membership credit (resets monthly).",
+        "title": "Oura Ring Credit",
+        "amount": 200,
+        "cycle": "Yearly",
+        "description": "200 Oura Ring credit.",
         "merchant": "Oura"
       }
     ]
