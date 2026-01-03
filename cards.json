@@ -16,12 +16,21 @@
         "merchant": "Uber"
       },
       {
+        "id": "ap-lululemon",
+        "cardId": "amex-plat",
+        "title": "lululemon Credit",
+        "amount": 75,
+        "cycle": "Quarterly",
+        "description": "$25 lululemon Credit (resets quarterly).",
+        "merchant": "lululemon"
+      },
+      {
         "id": "ap-digital",
         "cardId": "amex-plat",
         "title": "Digital Entertainment",
         "amount": 20,
         "cycle": "Monthly",
-        "description": "Credit for Disney+, Hulu, ESPN+, NYT, Peacock, or WSJ.",
+        "description": "Credit for Disney+, NYT, Peacock, Youtube, or WSJ.",
         "merchant": "Streaming"
       },
       {
@@ -32,6 +41,15 @@
         "cycle": "Monthly",
         "description": "Cover monthly Walmart+ membership fee.",
         "merchant": "Walmart"
+      },
+      {
+        "id": "ap-resy",
+        "cardId": "amex-plat",
+        "title": "Resy Credit",
+        "amount": 100,
+        "cycle": "Quarterly",
+        "description": "$100 Resy Credit (resets quarterly).",
+        "merchant": "Resy"
       },
       {
         "id": "ap-saks",
@@ -55,10 +73,199 @@
         "id": "ap-hotel",
         "cardId": "amex-plat",
         "title": "Hotel Credit",
-        "amount": 200,
-        "cycle": "Annual",
+        "amount": 300,
+        "cycle": "Semi-Annual",
         "description": "Prepaid FHR or The Hotel Collection bookings.",
         "merchant": "Amex Travel"
+      },
+      {
+        "id": "ap-equinox",
+        "cardId": "amex-plat",
+        "title": "Equinox Membership Fee",
+        "amount": 300,
+        "cycle": "Annual",
+        "description": "Equinox membership fee (resets annually).",
+        "merchant": "Equinox"
+      }
+    ]
+  },
+  {
+    "id": "cs-amex-plat",
+    "name": "Charles Schwab Platinum Card®",
+    "issuer": "Amex",
+    "color": "bg-zinc-300",
+    "image": "/images/cards/amex-plat.png",
+    "benefits": [
+      {
+        "id": "ap-uber",
+        "cardId": "amex-plat",
+        "title": "Uber Cash",
+        "amount": 15,
+        "cycle": "Monthly",
+        "description": "$15 Uber Cash for rides or eats (resets monthly).",
+        "merchant": "Uber"
+      },
+      {
+        "id": "ap-lululemon",
+        "cardId": "amex-plat",
+        "title": "lululemon Credit",
+        "amount": 75,
+        "cycle": "Quarterly",
+        "description": "$25 lululemon Credit (resets quarterly).",
+        "merchant": "lululemon"
+      },
+      {
+        "id": "ap-digital",
+        "cardId": "amex-plat",
+        "title": "Digital Entertainment",
+        "amount": 20,
+        "cycle": "Monthly",
+        "description": "Credit for Disney+, NYT, Peacock, Youtube, or WSJ.",
+        "merchant": "Streaming"
+      },
+      {
+        "id": "ap-walmart",
+        "cardId": "amex-plat",
+        "title": "Walmart+",
+        "amount": 13,
+        "cycle": "Monthly",
+        "description": "Cover monthly Walmart+ membership fee.",
+        "merchant": "Walmart"
+      },
+      {
+        "id": "ap-resy",
+        "cardId": "amex-plat",
+        "title": "Resy Credit",
+        "amount": 100,
+        "cycle": "Quarterly",
+        "description": "$100 Resy Credit (resets quarterly).",
+        "merchant": "Resy"
+      },
+      {
+        "id": "ap-saks",
+        "cardId": "amex-plat",
+        "title": "Saks Fifth Avenue",
+        "amount": 50,
+        "cycle": "Semi-Annual",
+        "description": "Spend $50 at Saks (Jan-Jun & Jul-Dec).",
+        "merchant": "Saks"
+      },
+      {
+        "id": "ap-airline",
+        "cardId": "amex-plat",
+        "title": "Airline Fee Credit",
+        "amount": 200,
+        "cycle": "Annual",
+        "description": "Incidental fees at one selected airline.",
+        "merchant": "Airline"
+      },
+      {
+        "id": "ap-hotel",
+        "cardId": "amex-plat",
+        "title": "Hotel Credit",
+        "amount": 300,
+        "cycle": "Semi-Annual",
+        "description": "Prepaid FHR or The Hotel Collection bookings.",
+        "merchant": "Amex Travel"
+      },
+      {
+        "id": "ap-equinox",
+        "cardId": "amex-plat",
+        "title": "Equinox Membership Fee",
+        "amount": 300,
+        "cycle": "Annual",
+        "description": "Equinox membership fee (resets annually).",
+        "merchant": "Equinox"
+      }
+    ]
+  },
+  {
+    "id": "ms-amex-plat",
+    "name": "Morgan Stanley Platinum Card®",
+    "issuer": "Amex",
+    "color": "bg-zinc-300",
+    "image": "/images/cards/amex-plat.png",
+    "benefits": [
+      {
+        "id": "ap-uber",
+        "cardId": "amex-plat",
+        "title": "Uber Cash",
+        "amount": 15,
+        "cycle": "Monthly",
+        "description": "$15 Uber Cash for rides or eats (resets monthly).",
+        "merchant": "Uber"
+      },
+      {
+        "id": "ap-lululemon",
+        "cardId": "amex-plat",
+        "title": "lululemon Credit",
+        "amount": 75,
+        "cycle": "Quarterly",
+        "description": "$25 lululemon Credit (resets quarterly).",
+        "merchant": "lululemon"
+      },
+      {
+        "id": "ap-digital",
+        "cardId": "amex-plat",
+        "title": "Digital Entertainment",
+        "amount": 20,
+        "cycle": "Monthly",
+        "description": "Credit for Disney+, NYT, Peacock, Youtube, or WSJ.",
+        "merchant": "Streaming"
+      },
+      {
+        "id": "ap-walmart",
+        "cardId": "amex-plat",
+        "title": "Walmart+",
+        "amount": 13,
+        "cycle": "Monthly",
+        "description": "Cover monthly Walmart+ membership fee.",
+        "merchant": "Walmart"
+      },
+      {
+        "id": "ap-resy",
+        "cardId": "amex-plat",
+        "title": "Resy Credit",
+        "amount": 100,
+        "cycle": "Quarterly",
+        "description": "$100 Resy Credit (resets quarterly).",
+        "merchant": "Resy"
+      },
+      {
+        "id": "ap-saks",
+        "cardId": "amex-plat",
+        "title": "Saks Fifth Avenue",
+        "amount": 50,
+        "cycle": "Semi-Annual",
+        "description": "Spend $50 at Saks (Jan-Jun & Jul-Dec).",
+        "merchant": "Saks"
+      },
+      {
+        "id": "ap-airline",
+        "cardId": "amex-plat",
+        "title": "Airline Fee Credit",
+        "amount": 200,
+        "cycle": "Annual",
+        "description": "Incidental fees at one selected airline.",
+        "merchant": "Airline"
+      },
+      {
+        "id": "ap-hotel",
+        "cardId": "amex-plat",
+        "title": "Hotel Credit",
+        "amount": 300,
+        "cycle": "Semi-Annual",
+        "description": "Prepaid FHR or The Hotel Collection bookings.",
+        "merchant": "Amex Travel"
+      },
+      {
+        "id": "ap-equinox",
+        "cardId": "amex-plat",
+        "title": "Equinox Membership Fee",
+        "amount": 300,
+        "cycle": "Annual",
+        "description": "Equinox membership fee (resets annually).",
+        "merchant": "Equinox"
       }
     ]
   },
@@ -86,6 +293,24 @@
         "cycle": "Monthly",
         "description": "$10 Uber Cash for rides or eats.",
         "merchant": "Uber"
+      },
+      {
+        "id": "ag-dunken",
+        "cardId": "amex-gold",
+        "title": "Dunkin Donuts",
+        "amount":7,
+        "cycle": "Monthly",
+        "description": "$7 Dunkin' Donuts credit (resets monthly).",
+        "merchant": "Dunkin' Donuts"
+      },
+      {
+        "id": "ag-resy",
+        "cardId": "amex-gold",
+        "title": "Resy Credit",
+        "amount": 50,
+        "cycle": "Semi-Annual",
+        "description": "$50 Resy Credit (resets quarterly).",
+        "merchant": "Resy"
       }
     ]
   },
@@ -108,11 +333,92 @@
       {
         "id": "csr-doordash",
         "cardId": "chase-csr",
-        "title": "DoorDash Credit",
+        "title": "DoorDash Restaurant Credits",
         "amount": 5,
         "cycle": "Monthly",
-        "description": "$5 monthly DoorDash credits (accumulate up to 3 months).",
-        "merchant": "DoorDash"
+        "description": "$5 monthly DoorDash restaurant credits (resets monthly).",
+        "merchant": "DoorDash-restaurant"
+      },
+      {
+        "id": "csr-doordash",
+        "cardId": "chase-csr",
+        "title": "DoorDash Grocery Credits 1",
+        "amount": 10,
+        "cycle": "Monthly",
+        "description": "$5 monthly DoorDash grocery credits (resets monthly).",
+        "merchant": "DoorDash-grocery1"
+      },
+      {
+        "id": "csr-doordash",
+        "cardId": "chase-csr",
+        "title": "DoorDash Grocery Credits 2",
+        "amount": 10,
+        "cycle": "Monthly",
+        "description": "$5 monthly DoorDash grocery credits (resets monthly).",
+        "merchant": "DoorDash-grocery2"
+      },
+      {
+        "id": "csr-edit-hotel",
+        "cardId": "chase-csr",
+        "title": "Edit Hotel Booking",
+        "amount": 250,
+        "cycle": "Semi-Annual",
+        "description": "Free edit hotel through the Chase Travel portal  (resets semi-annually).",
+        "merchant": "Hotel"
+      },
+      {
+        "id": "csr-opentable",
+        "cardId": "chase-csr",
+        "title": "OpenTable Restaurant Credits",
+        "amount": 150,
+        "cycle": "Semi-Annual",
+        "description": "$150 OpenTable restaurant credits (resets semi-annually).",
+        "merchant": "OpenTable"
+      },
+      {
+        "id": "csr-stubhub",
+        "cardId": "chase-csr",
+        "title": "StubHub Event Tickets",
+        "amount": 150,
+        "cycle": "Semi-Annual",
+        "description": "$150 StubHub event tickets (resets semi-annually).",
+        "merchant": "StubHub"
+      },
+      {
+        "id": "csr-lyft",
+        "cardId": "chase-csr",
+        "title": "Lyft Credit",
+        "amount": 10,
+        "cycle": "Monthly",
+        "description": "$10 Lyft credit (resets monthly).",
+        "merchant": "Lyft"
+      },
+      {
+        "id": "csr-peleton",
+        "cardId": "chase-csr",
+        "title": "Peleton Credit",
+        "amount": 10,
+        "cycle": "Monthly",
+        "description": "$10 Peleton credit (resets monthly).",
+        "merchant": "Peleton"
+      },
+      {
+        "id": "csr-apple-music",
+        "cardId": "chase-csr",
+        "title": "Apple Music Credit",
+        "amount": 250,
+        "cycle": "Yearly",
+        "description": "$250 Apple Music credit.",
+        "merchant": "Apple Music"
+      },
+      {
+        "id": "csr-select-hotel",
+        "cardId": "chase-csr",
+        "title": "Select Hotel Booking",
+        "amount": 250,
+        "cycle": "Annual",
+        "description": "Free select IHG hotel through the Chase Travel portal.",
+        "merchant": "Hotel"
       }
     ]
   },
